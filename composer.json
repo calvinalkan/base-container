@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "calvinalkan/interfaces": "0.1.0",
+    "calvinalkan/interfaces": "0.*",
     "illuminate/container": "^8.0"
   },
 
