@@ -1,7 +1,7 @@
 {
-  "name": "calvinalkan/base-container-adapter",
+  "name": "calvinalkan/base-container",
   "description": "The base container adapter that is used in all WpPackages.",
-  "homepage": "https://github.com/calvinalkan/base-container-adapter",
+  "homepage": "https://github.com/calvinalkan/base-container/",
 
   "require": {
     "illuminate/container": "^8.0",
