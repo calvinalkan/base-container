@@ -4,23 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2ce5e1fb4d95a11cdbe6aa20df18a1b",
+    "content-hash": "02f5b17dfa140f55cb81e558a0b6897c",
     "packages": [
         {
             "name": "calvinalkan/interfaces",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calvinalkan/interfaces.git",
-                "reference": "4c18b3608ae1a679b4b128b75df261658bac48fe"
+                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/4c18b3608ae1a679b4b128b75df261658bac48fe",
-                "reference": "4c18b3608ae1a679b4b128b75df261658bac48fe",
+                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
+                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -36,7 +35,7 @@
                     "email": "calvin@snicco.de"
                 }
             ],
-            "homepage": "https://github.com/calvinalkan/contracts",
+            "homepage": "https://github.com/calvinalkan/interfaces",
             "keywords": [
                 "events",
                 "hooks",
@@ -45,10 +44,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/calvinalkan/interfaces/tree/master",
+                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.0",
                 "issues": "https://github.com/calvinalkan/interfaces/issues"
             },
-            "time": "2021-03-29T04:10:11+00:00"
+            "time": "2021-03-29T04:21:11+00:00"
         },
         {
             "name": "illuminate/container",
@@ -252,9 +251,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "calvinalkan/interfaces": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

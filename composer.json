@@ -9,8 +9,8 @@
     }
   ],
   "require": {
-    "calvinalkan/interfaces": "0.*",
-    "illuminate/container": "^8.0"
+    "illuminate/container": "^8.0",
+    "calvinalkan/interfaces": "0.*"
   },
 
   "license": "GPL-2.0-or-later",
