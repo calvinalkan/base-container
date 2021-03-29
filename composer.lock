@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02f5b17dfa140f55cb81e558a0b6897c",
+    "content-hash": "81bc5e712e0887386e1e7221de10c0f9",
     "packages": [
         {
             "name": "calvinalkan/interfaces",
@@ -26,6 +26,7 @@
                     "Contracts\\": "/contracts"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -44,8 +45,8 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.0",
-                "issues": "https://github.com/calvinalkan/interfaces/issues"
+                "issues": "https://github.com/calvinalkan/interfaces/issues",
+                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.0"
             },
             "time": "2021-03-29T04:21:11+00:00"
         },
