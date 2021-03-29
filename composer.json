@@ -1,0 +1,30 @@
+{
+  "name": "calvinalkan/base-container-adapter",
+  "description": "The base container adapter that is used in all WpPackages.",
+  "homepage": "https://github.com/calvinalkan/base-container-adapter",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/calvinalkan/interfaces"
+    }
+  ],
+  "require": {
+    "calvinalkan/interfaces": "dev-master",
+    "illuminate/container": "^8.0"
+  },
+
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Calvin Alkan",
+      "email": "calvin@snicco.de"
+    }
+
+  ],
+  "autoload": {
+    "psr-4": {
+      "SniccoAdapter\\": "/"
+    }
+  }
+
+}
