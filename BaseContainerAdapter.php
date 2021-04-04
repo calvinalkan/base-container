@@ -11,7 +11,7 @@
 		/** @var Container */
 		private $container;
 		
-		private string $name = 'illuminate_container';
+		private $name = 'illuminate_container';
 		
 		public function __construct( IlluminateContainer $container = NULL ) {
 			

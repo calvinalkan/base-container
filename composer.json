@@ -4,6 +4,7 @@
   "homepage": "https://github.com/calvinalkan/base-container/",
 
   "require": {
+    "php": "^7.3",
     "illuminate/container": "^8.0",
     "calvinalkan/interfaces": "0.1.0"
   },
