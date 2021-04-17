@@ -2,11 +2,11 @@
 	
 	namespace SniccoAdapter;
 	
-    use Contracts\SniccoContainerAdapter;
+    use Contracts\ContainerAdapter;
     use Illuminate\Container\Container;
 	use Illuminate\Contracts\Container\Container as IlluminateContainer;
 	
-	class BaseContainerAdapter implements SniccoContainerAdapter {
+	class BaseContainerAdapter implements ContainerAdapter {
 		
 		/** @var Container */
 		private $container;
@@ -94,5 +94,14 @@
 		}
 
 
+        public function bind($abstract, $concrete)
+        {
+            $this->container->bind($abstract, $concrete );
+        }
+
+        public function singleton($abstract, $concrete)
+        {
+            $this->container->singleton($abstract, $concrete);
+        }
 
     }
