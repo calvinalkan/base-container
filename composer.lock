@@ -4,23 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5044371ef94b5ca64ec75a50d7f37b0",
+    "content-hash": "711940653aa60739f01a9299fe3dff4e",
     "packages": [
         {
             "name": "calvinalkan/interfaces",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calvinalkan/interfaces.git",
-                "reference": "73a20799a1d14e633e6a622a2803cf43afd66da3"
+                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/73a20799a1d14e633e6a622a2803cf43afd66da3",
-                "reference": "73a20799a1d14e633e6a622a2803cf43afd66da3",
+                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
+                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -47,9 +46,9 @@
             ],
             "support": {
                 "issues": "https://github.com/calvinalkan/interfaces/issues",
-                "source": "https://github.com/calvinalkan/interfaces/tree/master"
+                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.0"
             },
-            "time": "2021-04-17T00:56:00+00:00"
+            "time": "2021-03-29T04:21:11+00:00"
         },
         {
             "name": "illuminate/container",
@@ -253,9 +252,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "calvinalkan/interfaces": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
