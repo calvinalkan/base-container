@@ -5,8 +5,8 @@
 
   "require": {
     "php": "^7.3",
-    "illuminate/container": "^8.0",
-    "calvinalkan/interfaces": "0.1.0"
+    "illuminate/container": "8.35.1",
+    "calvinalkan/interfaces": "dev-master"
   },
 
   "license": "GPL-2.0-or-later",

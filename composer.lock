@@ -4,22 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81bc5e712e0887386e1e7221de10c0f9",
+    "content-hash": "f5044371ef94b5ca64ec75a50d7f37b0",
     "packages": [
         {
             "name": "calvinalkan/interfaces",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calvinalkan/interfaces.git",
-                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4"
+                "reference": "73a20799a1d14e633e6a622a2803cf43afd66da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
-                "reference": "1d69ef6ea15cc0069d73c6f2ee7006b5286735f4",
+                "url": "https://api.github.com/repos/calvinalkan/interfaces/zipball/73a20799a1d14e633e6a622a2803cf43afd66da3",
+                "reference": "73a20799a1d14e633e6a622a2803cf43afd66da3",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -46,13 +47,13 @@
             ],
             "support": {
                 "issues": "https://github.com/calvinalkan/interfaces/issues",
-                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.0"
+                "source": "https://github.com/calvinalkan/interfaces/tree/master"
             },
-            "time": "2021-03-29T04:21:11+00:00"
+            "time": "2021-04-17T00:56:00+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v8.34.0",
+            "version": "v8.35.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -103,16 +104,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.34.0",
+            "version": "v8.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "121cea1d8b8772bc7fee99c71ecf0f57c1d77b3b"
+                "reference": "5764f703ea8f74ced163125d810951cd5ef2b7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/121cea1d8b8772bc7fee99c71ecf0f57c1d77b3b",
-                "reference": "121cea1d8b8772bc7fee99c71ecf0f57c1d77b3b",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/5764f703ea8f74ced163125d810951cd5ef2b7e1",
+                "reference": "5764f703ea8f74ced163125d810951cd5ef2b7e1",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +148,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-03-12T14:45:30+00:00"
+            "time": "2021-04-01T13:09:31+00:00"
         },
         {
             "name": "psr/container",
@@ -252,10 +253,14 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "calvinalkan/interfaces": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.3"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
