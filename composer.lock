@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5044371ef94b5ca64ec75a50d7f37b0",
+    "content-hash": "a7c5e844b6338fdc99786c193db9a9ec",
     "packages": [
         {
             "name": "calvinalkan/interfaces",
-            "version": "dev-master",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calvinalkan/interfaces.git",
@@ -20,7 +20,6 @@
                 "reference": "73a20799a1d14e633e6a622a2803cf43afd66da3",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -47,7 +46,7 @@
             ],
             "support": {
                 "issues": "https://github.com/calvinalkan/interfaces/issues",
-                "source": "https://github.com/calvinalkan/interfaces/tree/master"
+                "source": "https://github.com/calvinalkan/interfaces/tree/0.1.1"
             },
             "time": "2021-04-17T00:56:00+00:00"
         },
@@ -253,9 +252,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "calvinalkan/interfaces": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
