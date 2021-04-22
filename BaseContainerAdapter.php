@@ -69,7 +69,7 @@
 			
 		}
 		
-		public function make( $abstract, array $parameters = [] ): object {
+		public function make( $abstract, array $parameters = [] ) {
 			
 			return $this->container->make( $abstract, $parameters );
 			
