@@ -1,6 +1,10 @@
 <?php
-	
-	namespace SniccoAdapter;
+
+
+    declare(strict_types = 1);
+
+
+    namespace SniccoAdapter;
 	
     use Contracts\ContainerAdapter;
     use Illuminate\Container\Container;
@@ -93,7 +97,6 @@
 			
 		}
 
-
         public function bind($abstract, $concrete)
         {
             $this->container->bind($abstract, $concrete );
@@ -102,6 +105,11 @@
         public function singleton($abstract, $concrete)
         {
             $this->container->singleton($abstract, $concrete);
+        }
+
+        public function implementation()
+        {
+            return $this->container;
         }
 
     }
